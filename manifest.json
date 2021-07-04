@@ -1,0 +1,39 @@
+{
+  "name": "Smart City - Quick Login",
+  "version": "1.0",
+  "description": "A Productivity tool to ease appliation login!",
+  "permissions": ["declarativeContent", "storage", "activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "24": "images/manifest/24.png",
+      "32": "images/manifest/32.png",
+      "48": "images/manifest/48.png",
+      "128": "images/manifest/128.png"
+    }
+  },
+
+  "icons": {
+      "24": "images/manifest/24.png",
+      "32": "images/manifest/32.png",
+      "48": "images/manifest/48.png",
+      "128": "images/manifest/128.png"
+  },
+  "manifest_version": 2,
+  "commands": {
+    "_execute_page_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K"
+      },
+      "description": "Opens Quick Login.html"
+    }
+  }
+}

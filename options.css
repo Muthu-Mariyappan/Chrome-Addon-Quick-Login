@@ -1,0 +1,78 @@
+body{
+	width: 600px;
+	background-image: url('images/options.jpg');
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+
+.environmentBlock{
+	width: 90%;
+}
+
+.activeLogins{
+	width:100%:
+}
+
+.ebTitle{
+	background:white;
+	opacity:1;
+	color:mediumblue;
+	width:fit-content;
+}
+
+#toolbar{
+	color:black;
+	width:fit-content;
+	background:white;
+}
+
+.configuredLoginRow{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+	margin-bottom:10px;
+	opacity: 0.9;
+	transition:opacity 0.3s;
+}
+
+.configuredLoginRow:hover{
+	opacity: 1 !important; /*To override inline effect of js change*/
+}
+
+.hotkey-label{
+	display:inline-block;
+	width:12px;
+	background:skyblue;
+	color:black;
+	font-family:'Courier New';
+	padding:5px 10px;
+	font-weight:bold;
+	font-size:20px;
+	border:solid 2px black;
+	border-radius:5px;
+}
+
+.textInput{
+	display:flex;
+	width: 40%;
+	margin: 0px 10px;
+	background:ivory;
+	text-align:center;
+	opacity: inherit;
+	font-weight:bold;
+	border-radius:25px;
+}
+
+.updateButton{
+	display:inline-block;
+	margin-left:5px;
+	cursor:pointer;
+	width:25%;
+	background:deeppink;
+	color:white;
+	text-align:center;
+	border:solid 2px black;
+	border-radius:5px;
+	font-weight:bold;
+	opacity: inherit;
+}
